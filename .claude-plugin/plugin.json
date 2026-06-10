@@ -1,0 +1,12 @@
+{
+  "name": "memory-maker",
+  "displayName": "Memory Maker",
+  "version": "0.1.0",
+  "description": "Autonomous cross-session memory for Claude Code: recalls your memory index at session start, distills new memories from each session at session end, and syncs the store across machines via git.",
+  "author": {
+    "name": "Dave Melillo",
+    "email": "dmelillo@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": ["memory", "hooks", "autonomous", "personalization"]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "memory-maker",
+  "owner": {
+    "name": "Dave Melillo",
+    "email": "dmelillo@gmail.com"
+  },
+  "description": "Marketplace hosting the Memory Maker plugin",
+  "plugins": [
+    {
+      "name": "memory-maker",
+      "source": "./",
+      "description": "Autonomous cross-session memory for Claude Code"
+    }
+  ]
+}
