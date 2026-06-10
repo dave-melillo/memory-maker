@@ -55,7 +55,7 @@ if "$CLAUDE_BIN" -p "$PROMPT" \
   --allowedTools "Read,Write,Edit,Glob,Grep" \
   --permission-mode acceptEdits \
   --settings '{"disableAllHooks": true}' \
-  >/dev/null 2>&1; then
+  > "$MEM_DIR/logs/last-extraction.txt" 2>&1; then
   rm -f .staging/*.md
   echo "[$(date)] extraction complete"
 else
