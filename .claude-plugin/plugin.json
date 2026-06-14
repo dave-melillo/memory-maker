@@ -5,7 +5,7 @@
   "description": "Autonomous cross-session memory for Claude Code: recalls your memory index at session start, distills new memories from each session at session end, and syncs the store across machines via git.",
   "author": {
     "name": "Dave Melillo",
-    "email": "dmelillo@gmail.com"
+    "email": "20580540+dave-melillo@users.noreply.github.com"
   },
   "license": "MIT",
   "keywords": ["memory", "hooks", "autonomous", "personalization"]
