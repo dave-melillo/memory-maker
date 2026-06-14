@@ -34,7 +34,7 @@ The fact, with why it matters.
 ## Install
 
 ```
-/plugin marketplace add dmelillo/memory-maker     # or a local path
+/plugin marketplace add dave-melillo/memory-maker   # or a local path
 /plugin install memory-maker@memory-maker
 ```
 
@@ -50,7 +50,7 @@ git init && git add -A && git commit -m "init"
 gh repo create memory-maker-store --private --source . --push
 ```
 
-On every other machine: clone the store repo to `~/.memory-maker`, install the plugin. SessionStart pulls, the extraction worker pushes. **Keep the repo private — it's your personal data.**
+On every other machine: clone the store repo to `~/.memory-maker`, install the plugin. SessionStart pulls, the extraction worker pushes. **Keep that repo private — it's your personal data.** (This is your *memory store* repo — separate from this public plugin repo.)
 
 ## Managing it
 
